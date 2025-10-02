@@ -1,6 +1,6 @@
 # url-to-qr
 
-This is a sample application that generates QR Codes for the provided URL, the front-end is in NextJS and the API is written in Python using FastAPI.
+This is a simple application that generates QR Codes for the provided URL, the front-end is in NextJS and the API is written in Python using FastAPI.
 
 ## Application
 
