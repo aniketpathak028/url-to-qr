@@ -16,5 +16,5 @@ jobs:
               run: |
                 docker login -u aniketpathak028 -p ${{ secrets.DOCKERHUB_TOKEN }}
                 docker push aniketpathak028/url-to-qr:latest
-                docker push aniketpathak028/utr-to-qr-frontend:latest
+                docker push aniketpathak028/url-to-qr-frontend:latest
             
