@@ -5,8 +5,8 @@ on:
         branches:
             - main
         paths:
-            - "api/Dockerfile"
-            - "front-end-nextjs/Dockerfile"
+            - "api/*"
+            - "front-end-nextjs/*"
         
 
 jobs:
@@ -24,4 +24,4 @@ jobs:
                 docker login -u aniketpathak028 -p ${{ secrets.DOCKERHUB_TOKEN }}
                 docker push aniketpathak028/url-to-qr:latest
                 docker push aniketpathak028/url-to-qr-frontend:latest
-            
+    
