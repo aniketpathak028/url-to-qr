@@ -1,6 +1,13 @@
 name: Build and Push image to Docker Hub
 on:
-    [workflow_dispatch]
+    #[workflow_dispatch] provides a button to trigger the workflow instead of running automatically
+    push:
+        branches:
+            - main
+        paths:
+            - "api/Dockerfile"
+            - "front-end-nextjs/Dockerfile"
+        
 
 jobs:
     publish_images:
